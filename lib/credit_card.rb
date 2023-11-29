@@ -1,6 +1,3 @@
-require 'pry'
-
-
 class CreditCard 
 
     attr_reader :card_number, :limit 
@@ -49,4 +46,4 @@ end
 
 credit_card = CreditCard.new("5541808923795240", 15000)
 
-binding.pry
+
